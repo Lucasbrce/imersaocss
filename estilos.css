@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://abrilexame.files.wordpress.com/2019/05/grumpy-cat.jpg?quality=70&strip=info&resize=680,453");
+    background-size: auto 100vh;
+  font-family: Arial;
+     
+  }
+  
+  .menu{
+    background-color:white;
+  }
+  
+  .menu li{
+    list-style: none;
+  }
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a{
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-title, .site-subtitle {
+   color: whitesmoke;
+   text-align: center; 
+  }
+  
+  .site-subtitle{
+    font-style: italic;
+  }
